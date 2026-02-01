@@ -1,16 +1,34 @@
-# notes_app
+# Notoid
+Notoid is a **simple Flutter notes app** that lets you quickly create, edit, and delete notes. It has a **clean and minimalistic design** for easy use on mobile devices.
 
-A new Flutter project.
+## Features
+- Add new notes  
+- Edit existing notes  
+- Delete notes  
+- Clean and simple user interface  
+- Local storage using SQFlite  
 
-## Getting Started
+## Packages / Dependencies
+This app uses the following Flutter packages:
 
-This project is a starting point for a Flutter application.
+- **sqflite**: SQLite plugin for local database storage  
+- **path**: For handling file paths  
+- **path_provider**: To get device directories for storing files  
+- **provider**: State management  
+- **shared_preferences**: Store simple key-value data locally  
+- **flutter_launcher_icons**: To generate app launcher icons  
 
-A few resources to get you started if this is your first Flutter project:
+### Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repo:  
+   `git clone https://github.com/aliyan-rehman/Notoid.git`
+2. Open the project folder:  
+   `cd Notoid`
+3. Install dependencies:  
+   `flutter pub get`
+4. Run the app:  
+   `flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+Aliyan Rehman  
+GitHub: [https://github.com/aliyan-rehman]
