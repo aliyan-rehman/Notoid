@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:notes_app/data/local/db_helper.dart';
 import 'package:notes_app/db_provider.dart';
 import 'package:notes_app/notes_home_page.dart';
-import 'package:notes_app/splash_screen.dart';
 import 'package:notes_app/theme_provider.dart';
 import 'package:provider/provider.dart';
 

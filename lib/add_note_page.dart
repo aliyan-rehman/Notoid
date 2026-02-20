@@ -5,8 +5,6 @@ import 'package:notes_app/theme_provider.dart';
 import 'package:notes_app/widgets/custom_text_field.dart';
 import 'package:provider/provider.dart';
 
-import 'data/local/db_helper.dart';
-
 class AddNotePage extends StatefulWidget {
   String title;
   String desc;
